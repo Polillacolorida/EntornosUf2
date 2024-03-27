@@ -56,28 +56,27 @@ import java.util.Scanner;
 		 **/
 		
 		public void comprobarcion(){
-			
-			if (uf1>10) {
+			//agrego una comprobación también para los números en negativo
+		
+			if (uf1 > 10 || uf1 < 0) {
 				System.out.println(" nota1 mal introducida");
 				
 			}else {
 				System.out.println(" nota1 correcta");
 			}
 			
-			if (uf2>10) {
+			if (uf2 > 10 || uf2 < 0) {
 				System.out.println(" nota2 mal introducida");
 				
 			}else {
 				System.out.println(" nota2 correcta");
 			}
-			if (uf3>10) {
+			if (uf3 > 10 || uf3 < 0) {
 				System.out.println(" nota3 mal introducida");
 				
 			}else {
 				System.out.println(" nota3 correcta");
 			}
-			
-				
 			
 			
 		}
